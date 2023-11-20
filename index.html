@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissors</title>
+    <script src="./rockpaperscissors.js"></script>
+    <link rel="stylesheet" href="./rockpaperscissors.css">
+</head>
+
+<body onload="setGame()">
+    <div class="game-container">
+        <div class="title-container">
+            <h1>Rock Paper Scissors</h1>
+            <h3>Click your choice</h3>
+        </div>
+        <div class="pieces-container">
+            <div onclick="rockClick()" class="rock-container">
+                <img src="./assets/rock.png" />
+            </div>
+            <div onclick="paperClick()" class="paper-container">
+                <img src="./assets/paper.png" />
+            </div>
+            <div onclick="scissorsClick()" class="scissors-container">
+                <img src="./assets/index.png" />
+            </div>
+        </div>
+    </div>
+    <div class="message-container">
+        <p id="message-display"></p>
+    </div>
+
+</body>
+
+</html>
