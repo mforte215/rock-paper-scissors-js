@@ -1,93 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
 body {
-    margin: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .game-container {
-    width: 100%;
-    background-color: white;
+  width: 100%;
+  background-color: white;
 }
 
 .rock-container {
-    width: 25%;
-    float: left;
-    background-color: white;
-    border: 5px solid black;
-    border-radius: 4px;
-    margin-right: 4%;
-    margin-left: 4%;
-    }
-
-.rock-container:hover {
-    background-color: lightslategray;
-    border: 5px solid gainsboro;
+  width: 25%;
+  float: left;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 4px;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .rock-container img {
-    width: 33%;
-    margin: 33%;
+  width: 33%;
+  margin: 33%;
 }
 
 .paper-container {
-    width: 25%;
-    float: left;
-    background-color: white;
-    border: 5px solid black;
-    border-radius: 4px;
-    margin-right: 4%;
-}
-
-.paper-container:hover {
-    background-color: lightslategray;
-    border: 5px solid gainsboro;
+  width: 25%;
+  float: left;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 4px;
+  margin-right: 4%;
 }
 
 .paper-container img {
-    width: 33%;
-    margin: 33%;
+  width: 33%;
+  margin: 33%;
 }
 
 .scissors-container {
-    width: 25%;
-    float: left;
-    background-color: white;
-    border: 5px solid black;
-    border-radius: 4px;
-}
-
-.scissors-container:hover {
-    background-color: lightslategray;
-    border: 5px solid gainsboro;  
+  width: 25%;
+  float: left;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 4px;
 }
 
 .scissors-container img {
-    width: 33%;
-    margin: 33%;
+  width: 33%;
+  margin: 33%;
 }
 
 .pieces-container {
-    padding-top: 50px;
-    width: 80%;
-    margin: auto;
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
 }
 
 .title-container {
-    width: 50%;
-    margin: 0 auto 0 auto;
-    text-align: center;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  text-align: center;
 }
 
 .title-container h1 {
-    margin: 0;
-    padding-top: 50px;
+  margin: 0;
+  padding-top: 50px;
 }
 
 .message-container {
-    width: 60%;
-    margin-left: 18%;
-    margin-top: 5%;
-    text-align: center;
-    font-size: 2em;
+  width: 60%;
+  margin-left: 18%;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 2em;
 }
