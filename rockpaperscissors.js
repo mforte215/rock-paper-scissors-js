@@ -15,19 +15,19 @@ const rockClick = () => {
         console.log('Tie')
         window.tie_score = window.tie_score + 1;
         messageDisplay = document.getElementById('message-display');
-        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: ROCK \n CPU PICK: ROCK \n TIE!'
+        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: ROCK \n CPU PICK: ROCK \n TIE! \n PICK AGAIN!'
     }
     else if (cpuChoice == 'paper') {
         console.log('CPU WINS!')
         window.cpu_score = window.cpu_score + 1;
         messageDisplay = document.getElementById('message-display');
-        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: ROCK \n CPU PICK: PAPER \n CPU WINS!'
+        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: ROCK \n CPU PICK: PAPER \n CPU WINS! \n PICK AGAIN!'
     }
     else if (cpuChoice == 'scissors') {
         console.log('You win!')
         window.user_score = window.user_score + 1;
         messageDisplay = document.getElementById('message-display');
-        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: ROCK \n CPU PICK: SCISSORS \n USER WINS!'
+        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: ROCK \n CPU PICK: SCISSORS \n USER WINS! \n PICK AGAIN!'
     }
 
 }
@@ -41,19 +41,19 @@ const paperClick = () => {
         console.log('YOU WIN!')
         messageDisplay = document.getElementById('message-display');
         window.user_score = window.user_score + 1;
-        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: PAPER \n CPU PICK: ROCK \n USER WINS!'
+        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: PAPER \n CPU PICK: ROCK \n USER WINS! \n PICK AGAIN!'
     }
     else if (cpuChoice == 'paper') {
         console.log('TIE!')
         window.tie_score = window.tie_score + 1;
         messageDisplay = document.getElementById('message-display');
-        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: PAPER \n CPU PICK: PAPER \n TIE!'
+        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: PAPER \n CPU PICK: PAPER \n TIE! \n PICK AGAIN!'
     }
     else if (cpuChoice == 'scissors') {
         console.log('CPU WINS!')
         window.cpu_score = window.cpu_score + 1;
         messageDisplay = document.getElementById('message-display');
-        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: PAPER \n CPU PICK: SCISSORS \n CPU WINS!'
+        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: PAPER \n CPU PICK: SCISSORS \n CPU WINS! \n PICK AGAIN!'
     }
 
 }
@@ -67,19 +67,19 @@ const scissorsClick = () => {
         console.log('CPU WINS!')
         window.cpu_score = window.cpu_score + 1;
         messageDisplay = document.getElementById('message-display');
-        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: SCISSORS \n CPU PICK: ROCK \n CPU WINS!'
+        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: SCISSORS \n CPU PICK: ROCK \n CPU WINS! \n PICK AGAIN!'
     }
     else if (cpuChoice == 'paper') {
         console.log('YOU WIN!')
         window.user_score = window.user_score + 1;
         messageDisplay = document.getElementById('message-display');
-        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: SCISSORS \n CPU PICK: PAPER \n USER WINS!'
+        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: SCISSORS \n CPU PICK: PAPER \n USER WINS! \n PICK AGAIN!'
     }
     else if (cpuChoice == 'scissors') {
         console.log('TIE!')
         window.tie_score = window.tie_score + 1;
         messageDisplay = document.getElementById('message-display');
-        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: SCISSORS \n CPU PICK: SCISSORS \n TIE!'
+        messageDisplay.innerText = 'Score ' + window.user_score + '-' + window.cpu_score + '-' + window.tie_score + '\n USER PICK: SCISSORS \n CPU PICK: SCISSORS \n TIE! \n PICK AGAIN!'
     }
 
 }
